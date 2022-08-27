@@ -8,7 +8,7 @@
 */
 
 html, body, div, span, applet, object,
-iframe, h1, h2, h3, h4, h5, h6, p, p2, blockquote,
+iframe, h1, h2, h3, h4, h5, h6, h7, h8, h9, p, p2, blockquote,
 pre, a, abbr, acronym, address, big, cite,
 code, del, dfn, em, img, ins, kbd, q, s, samp,
 small, strike, strong, sub, sup, tt, var, b,
@@ -1364,7 +1364,7 @@ input, select, textarea {
 
 		}
 
-	strong, b, h1, h2, h3, h4, h5, h6 {
+	strong, b, h1, h2, h3, h4, h5, h6, h7, h8, h9 {
 		font-weight: 400;
 		color: #363636;
 	}
@@ -1374,7 +1374,7 @@ input, select, textarea {
 		letter-spacing: -0.015em;
 	}
 
-	h2 {
+	h2, h7, h8, h9 {
 		font-size: 1.8em;
 		letter-spacing: -0.015em;
 	}
@@ -1390,7 +1390,7 @@ input, select, textarea {
 			font-size: 1.75em;
 		}
 
-		h2 {
+		h2, h7, h8, h9 {
 			font-size: 1.375em;
 		}
 
